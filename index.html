@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+    <head>
+        <!--icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Kalnia&family=Merriweather:ital,wght@0,700;1,300;1,400;1,700&family=Stylish&display=swap" rel="stylesheet">
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- MAIN INTRO -->
+        <div class='container_main'>
+            <div class='content'>
+                <div class='content_text'>
+                    <p>Hi, There <br> I'm <span id="name">Akshat</span> 
+                        <br>
+                        <span id="style_main">UG student at IIT Kanpur</span>
+                    </p>
+                    
+                    
+                    <div class="social_media">
+                        <a href="https://www.facebook.com/profile.php?id=100095250220909" class="fa fa-facebook" ></a>
+                        <a href="https://twitter.com/IITKAkshat" class="fa fa-twitter"></a>
+                        <a href="https://www.linkedin.com/in/akshat-iitk-5709a7282/" class="fa fa-linkedin"></a>
+                        <a href="https://www.instagram.com/akshat_knpr/" class="fa fa-instagram"></a>
+                        <a href="https://www.youtube.com/@AkshatIITK/featured" class="fa fa-youtube"></a>
+
+                        
+                    </div>
+                    
+                </div>
+                <div class="img_container">
+                    <div class='image_avatar'>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><hr><br><br>
+        <!-- Form -->
+        <div class="form_section">
+            <h2>Connect With Us!</h2>
+            <form name="details">
+                <label>Name:</label><input type="text">
+                <br><br>
+                <label>Email:</label><input type="text">
+                <br><br>
+                <label>Gender:</label>
+                <select id="gender">
+                    <option value="none" selected disabled hidden>Select an Option</option>
+                    <option value="Any">Any</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <br><br>
+                <label>Batch:</label>
+                <select id="year" >
+                    <option selected disabled hidden>Select an Option</option>
+                    <option>Y23</option>
+                    <option>Y22</option>
+                    <option>Y21</option>
+                    <option>Y20</option>
+                </select>
+                <br><br>
+                <label>Department:</label>
+                <select id="branch" >
+                    <option value="none" selected disabled hidden>Select an Option</option>
+                    <option>CSE</option>
+                    <option>EE</option>
+                    <option>MTH</option>
+                    <option>SDS</option>
+                    <option>AE</option>
+                    <option>CE</option>
+                    <option>MSE</option>
+                    <option>CHE</option>
+                    <option>CHM</option>
+                    <option>PHY</option>
+                    <option>ES</option>
+                    <option>ECO</option>
+                    <option>BSBE</option>
+                </select>
+
+
+            </form>
+        </div>
+
+        <br><br><hr><br><br>
+        <!-- time table -->
+        
+
+        <div class="time_table_section">
+            <div class="sem_change">
+                <button class="custom-btn btn-16" onclick='getting_time(ttsem1)' >SEMESTER 1</button>
+                <button class="custom-btn btn-16" onclick='getting_time(ttsem2)' id="right">SEMESTER 2</button>
+            </div>
+            <table class="time_table">
+                <tr class="days">
+                    <td></td>
+                    <td>Monday</td>
+                    <td>Tuesday</td>
+                    <td>Wednesday</td>
+                    <td>Thursday</td>
+                    <td>Friday</td>
+                </tr>
+                <tr> <!-- 8 -->
+                    <td>8am</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!--8.5 -->
+                    <td ></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 9 -->
+                    <td >9am</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 9.5 -->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 10  -->
+                    <td>10am</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 10.5  -->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 11  -->
+                    <td>11am</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 11.5  -->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 12  -->
+                    <td>12pm</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 12.5  -->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 1  -->
+                    <td>1pm</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 1.5  -->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 2  -->
+                    <td>2pm</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 2.5  -->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 3  -->
+                    <td>3pm</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 3.5  -->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 4  -->
+                    <td>4pm</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 4.5  -->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 5  -->
+                    <td>5pm</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>  <!-- 5.5  -->
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+                
+            
+        </div>
+        <br><br><hr><br><br>
+        <div class="image_section">
+            <div class="img_row">
+                <img src="img/p15.jpeg" alt="iitk">
+                <img src="img/p5.jpeg" alt="iitk">
+                <img src="img/p6.jpeg" alt="iitk">
+                
+            </div>
+            <br>
+            <div class="img_row">
+                <img src="img/p7.jpeg" alt="iitk">
+                <img src="img/p8.jpeg" alt="iitk">
+                <img src="img/p9.jpeg" alt="iitk">
+                
+            </div>
+            <br>
+            <div class="img_row">
+                <img src="img/p10.jpeg" alt="iitk">
+                <img src="img/p11.jpeg" alt="iitk">
+                <img src="img/p12.jpeg" alt="iitk">
+                
+            </div>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,268 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    border: 0;
+    box-shadow: 0 0 5px 1px #dfcaca;
+    border-top: 2px groove #d6c1c1;
+}
+.container_main{
+    background: url('img/12300592_4940019.jpg');
+    background-size: cover;
+    margin: auto;
+}
+
+.content{
+    width: 700px;
+    height: 100vh;
+    margin:auto;
+    display: flex;
+    height: 80vh;
+    gap: 10%;
+    
+}
+
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_avatar{
+    background: url('img/rocket_guardians_of_the_galaxy_by_avenger_000_dg5ub69-fullview.jpg');
+    width:200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+}
+span #name{
+    color: #f69606;
+}
+span #style_main{
+    color: #55ACEE;
+}
+
+.content_text{
+    font-family: 'Cinzel', serif;
+    font-family: 'Kalnia', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Stylish', serif;
+    box-sizing: border-box;
+    font-size: 2em;
+    font-weight: 700;
+    font-style: italic;
+    width: 50%;
+    height: 100%;
+    padding-top: 30%;
+    
+}
+
+.social_media{
+    height: 50px;
+    padding-left: 10%;
+    /* margin-top: 10%;
+    
+    gap:5px; */
+}
+
+
+/* ICONS  */
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 1px solid blueviolet;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #E1306C;
+    color: white;
+}
+  
+/* FORM SECTION */
+
+.form_section {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    appearance: none;
+}
+
+
+
+
+/* Table section */
+
+
+/* buttons */
+.sem_change{
+    width: 40%;
+    gap: 4%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+button {
+    margin: 20px;
+}
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    margin: auto;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+button #right{
+    right: 0;
+    
+}
+
+.btn-16 {
+    border: none;
+    color: #000;
+}
+.btn-16:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+}
+.btn-16:hover {
+    color: #000;
+}
+.btn-16:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+.btn-16:active {
+    top: 2px;
+}
+  
+
+
+table.time_table{
+    width: 60%;
+    margin: auto;
+
+}
+
+.time_table tr{
+    height: 4.575%;
+}
+.time_table td{
+    width:19.28%;
+    height:20px;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.time_table td:nth-child(1){
+    width: 4%;
+    color: black;
+}
+.time_table tr:nth-child(1) td{
+    color: black;
+}
+
+table, th, td {
+    border: 1px solid #dddedd;
+    border-collapse: collapse;
+  }
+
+/* image container section */
+.image_section{
+    width: 80%;
+    border: 1px solid ;
+    margin: auto;
+}
+
+.img_row img{
+    width:30%;
+}
+.img_row img:nth-child(2){
+    margin: 0 4.5% 0 4.5%;
+}
